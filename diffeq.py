@@ -98,7 +98,7 @@ func3 = lambda y, t: - y**4 + np.sin(2*t)
 #answer to 10a
 e1 =  EulerMethod(tmin,tmax,Narray[0],x0,func3,r'$ x\' = -x^4 + sin(2*t) $')
 e2 =  EulerMethod(tmin,tmax,Narray[1],x0,func3,r'$ x\' = -x^4 + sin(2*t) $')
-e3 =  EulerMethod(tmin,tma:wqx,Narray[2],x0,func3,r'$ x\' = -x^4 + sin(2*t) $')
+e3 =  EulerMethod(tmin,tmax,Narray[2],x0,func3,r'$ x\' = -x^4 + sin(2*t) $')
 
 #answer to 10b
 rk2i = RungeKuttaMethodSecondOrder(tmin,tmax,Narray[0],x0,func3,r'$ x\' = -x^4 + sin(2*t) $') 
